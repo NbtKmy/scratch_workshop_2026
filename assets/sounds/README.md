@@ -3,6 +3,7 @@
 - bgm.mp3
 - se_jump.mp3
 - se_victory.mp3
+- se_gameover.mp3
 
 Created by: 
 [Springin’ Sound Stock](https://www.springin.org/)
