@@ -5,7 +5,9 @@ Dieses Repository enthält alle Materialien für den Workshop **"Erste Schritte 
 ## Über den Workshop
 Programmieren zum ersten Mal? Kein Problem! In diesem Workshop entwickeln wir mit Scratch ein einfaches Actionspiel. Mit bunten Blöcken statt kompliziertem Code – so leicht wie Lesen und Puzzeln. Schritt für Schritt lernst du, Figuren zu bewegen, Aktionen auszulösen und dein Spiel kreativ zu gestalten.
 
-> **Hinweis:** Bitte eigenen Laptop mitbringen! Wir verwenden die Plattform "Scratch". Dafür wird ein kostenloser Account benötigt.
+> **Hinweis:** 
+> - Bitte eigenen Laptop mitbringen! 
+> - Bitte einen eigenen Scratch-Account erstellen! Wir verwenden die Plattform "Scratch". Dafür wird ein kostenloser Account benötigt.
 
 ---
 
