@@ -26,7 +26,12 @@ Jetzt wird es richtig spannend! Wir fügen Schwerkraft und eine Sprung-Funktion 
 ---
 
 ## Ressourcen in diesem Repository
+
 Im Ordner "[assets](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/assets)" findest du die im Workshop verwendeten Sprites und Musikdateien, damit du dein Spiel noch professioneller gestalten kannst!
 
 - Ordner "images": Unterschiedliche [Sprites](https://de.wikipedia.org/wiki/Sprite_(Computergrafik))
-- Ordner "sounds": BGM und Sound Effects
+- Ordner "sounds": BGM und Sound Effects$
+
+Im Ordner "[presentation](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/presentation)" befindet sich die Präsentationen für den Workshop.
+
+
