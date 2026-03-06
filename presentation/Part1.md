@@ -17,7 +17,7 @@ style: |
 
 **Teil 1: Die Figur zum Leben erwecken**
 
-Workshop-Leiter: Nobu
+Workshop-Leiter: Lars, Nobu
 
 ---
 
@@ -38,6 +38,17 @@ Workshop-Leiter: Nobu
 2. Wähle eine Figur aus, die mehrere Kostüme hat.
    - **Empfehlung:** `Pico Walking`, `Giga Walking` oder `Avery Walking`.
    - **Warum?** Diese Figuren haben schon fertige Bilder für eine Geh-Animation.
+
+---
+
+# Shritt 1.5
+
+## **Achtung!**
+
+Die Figuren & Sprites machen nur das, was du als Codes reinschreibst!  
+- Zum Beispiel - Wenn du nicht definierst, dass ein Sprite A durch Kollision mit einem Sprite B gestoppt wird, dann läuft Sprite A direkt durch Sprite B durch!
+
+Also - "Am Anfang war das Wort"
 
 ---
 
