@@ -5,6 +5,8 @@ Dieses Repository enthält alle Materialien für den Scratch-Workshop 2026
 
 ## Scratch Workshop in UB Games Month 2026
 
+Präsentationen für diesen Workshop sind [hier](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/presentation/gamesmonth_2026) zu finden!
+
 ### Über den Workshop
 
 Mit Scratch lassen sich eigene Spiele und interaktive Geschichten programmieren. In diesem Workshop machen wir gemeinsam die ersten Schritte.  
@@ -45,7 +47,7 @@ Jetzt wird es richtig spannend! Wir fügen Schwerkraft und eine Sprung-Funktion 
 
 ## Ressourcen in diesem Repository
 
-Im Ordner "[assets/images](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/assets)" findest du die im Workshop verwendeten Sprites, damit du dein Spiel noch professioneller gestalten kannst!
+Im Ordner "[assets/images](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/assets/images)" findest du die im Workshop verwendeten Sprites, damit du dein Spiel noch professioneller gestalten kannst!
 
 Im Ordner "[presentation](https://github.com/NbtKmy/scratch_workshop_2026/tree/main/presentation)" befindet sich die Präsentationen für den beiden Workshops.
 

@@ -315,21 +315,6 @@ end
 
 ---
 
-# Kleine Herausforderung
-
-Wie könnte man verhindern, dass ein Klick sofort viele Punkte gibt?
-
-<div class="box">
-
-Tipp:
-
-```text id="dq7ix8"
-wait (0.2) seconds
-```
-
-</div>
-
----
 
 <!-- _class: chapter -->
 
@@ -447,41 +432,6 @@ Die Nachricht startet das Skript des Hundes.
 
 ---
 
-<!-- _class: chapter -->
-
-# Beide Konzepte zusammen
-
-## Variable + Broadcast
-
----
-
-# Beispiel: Gewonnen!
-
-Wir prüfen zuerst die Punkte:
-
-```text id="jevifj"
-if <(Punkte) = [10]> then
-
-  broadcast [Gewonnen v]
-
-end
-```
-
----
-
-# Auf „Gewonnen“ reagieren
-
-Eine andere Figur könnte dann:
-
-```text id="93aqbj"
-when I receive [Gewonnen v]
-
-say [Du hast gewonnen!] for (2) secs
-```
-
-Oder der Hintergrund wechselt zum Gewinner-Bildschirm.
-
----
 
 # Zusammenfassung
 
@@ -500,6 +450,12 @@ Das **Gedächtnis** des Programms.
 Die **Kommunikation** zwischen Figuren.
 
 </div>
+
+---
+
+# Ein Beispiel
+
+https://scratch.mit.edu/projects/1384788695
 
 ---
 
