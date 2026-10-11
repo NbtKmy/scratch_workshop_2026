@@ -210,10 +210,19 @@ Der Wert kann sich während des Spiels verändern.
 
 ---
 
+# Beispiel-Projekt
+
+https://scratch.mit.edu/projects/1384788695/
+
+Wir können in diesem Beispiel-Projekt konkret ansehen, wie man Variabel und Broadcast-Funktion verwendet. 
+
+
+---
+
 # Variable erstellen
 
-1. Öffne **Variablen**.
-2. Klicke auf **„Variable erstellen“**.
+1. Öffne **Variables**.
+2. Klicke auf **„Make a Variable“**.
 3. Gib ihr einen Namen.
 
 Zum Beispiel:
@@ -230,88 +239,43 @@ oder
 
 Scratch fragt:
 
-**Für alle Figuren?**
+**For all sprites?**
 
 oder
 
-**Nur für diese Figur?**
+**For this sprite only?**
+
+<br />
 
 <div class="box">
-
-Für Punkte oder Zeit ist meistens
-**„für alle Figuren“** sinnvoll.
+In Scratch kann man festlegen, ob eine Variable für alle Figuren oder nur für eine bestimmte Figur verfügbar sein soll.
 
 </div>
 
 ---
 
-# Wert setzen
+# Das ist ein Variabel
 
-```text id="bnq8dh"
-set [Punkte v] to [0]
-```
+![w:300](./assets/variabel_0.png)
 
-Damit bekommt die Variable einen Startwert.
+Der Wert eines Variabels kann sichtbar angezeigt werden:
 
-Zum Beispiel beim Start des Spiels:
+![w:600](./assets/variabel_4.png)
 
-```text id="eotbsr"
-[Grüne Flagge angeklickt]
-
-set [Punkte v] to [0]
-```
 
 ---
 
-# Wert verändern
+# Werte für ein Variabel festsetzen & ändern
 
-```text id="0zjaxc"
-change [Punkte v] by [1]
-```
+![w:400](./assets/variabel_1.png)
+![w:400](./assets/variabel_2.png)
 
-Dadurch wird:
-
-`0 → 1 → 2 → 3 → ...`
-
-<div class="box">
-
-Mit `-1` kann man einen Wert auch verringern.
-
-</div>
 
 ---
 
-# Wert benutzen
+# Werte verwenden
 
-Der runde Block
-
-```text id="69jj8n"
-(Punkte)
-```
-
-liefert den aktuellen Wert.
-
-Damit können wir zum Beispiel prüfen:
-
-```text id="ucjq6k"
-if <(Punkte) = [10]> then
-```
-
----
-
-# Beispiel: Klick-Spiel
-
-```text id="p6y3j1"
-[Grüne Flagge angeklickt]
-
-set [Punkte v] to [0]
-
-forever
-  if <Mauszeiger berührt?> then
-    change [Punkte v] by [1]
-  end
-end
-```
+![w:800](./assets/variabel_3.png)
 
 ---
 
@@ -330,11 +294,11 @@ Nachrichten zwischen Figuren
 
 Stellt euch vor:
 
-**Katze erreicht das Ziel.**
+**Um ein "Buch" aufzuklappen, muss man die "Leertaste" 10mal tippen**
 
-Der Hund soll darauf reagieren.
+Eine Figur "Bibliothkar" soll darauf reagieren.
 
-Aber woher weiss der Hund, dass das Ziel erreicht wurde?
+Aber woher weiss der Bibliothekar, dass das Ziel erreicht wurde?
 
 ---
 
@@ -350,15 +314,13 @@ Andere Figuren können auf diese Nachricht reagieren.
 
 # Nachricht senden
 
-Unter **Ereignisse** findet ihr:
+Unter **Events** findet ihr:
 
-```text id="xlfjla"
-broadcast [SpielStart v]
-```
+![w:300](./assets/broadcast_0.png)
 
 Die Figur sendet damit die Nachricht:
 
-**„SpielStart“**
+**„start_scene_2“**
 
 ---
 
@@ -366,72 +328,17 @@ Die Figur sendet damit die Nachricht:
 
 Eine andere Figur kann darauf warten:
 
-```text id="nwgzip"
-when I receive [SpielStart v]
-```
+![w:300](./assets/broadcast_1.png)
 
 Danach führt sie ihre eigenen Blöcke aus.
 
 ---
 
-# Beispiel: Spielstart
+# Konkretes Beispiel
 
-Start-Button wird geklickt.
-
-```text id="pqtqbq"
-broadcast [SpielStart v]
-```
-
-Danach können mehrere Figuren gleichzeitig reagieren.
+[Hier in diesem Projekt](https://scratch.mit.edu/projects/1384788695)
 
 ---
-
-# Beispiel: Levelwechsel
-
-Eine Figur erreicht das Ziel.
-
-```text id="h9a5ae"
-broadcast [Nächstes Level v]
-```
-
-Danach könnte:
-
-* der Hintergrund wechseln
-* ein Gegner erscheinen
-* die Geschwindigkeit steigen
-
----
-
-# Beispiel: Dialog
-
-### Katze
-
-```text id="5fnu0r"
-[Grüne Flagge angeklickt]
-
-say [Hallo Hund!] for (2) secs
-
-broadcast [Antworten v]
-```
-
----
-
-# Der Hund antwortet
-
-```text id="k48jip"
-when I receive [Antworten v]
-
-say [Wuff! Hallo!] for (2) secs
-```
-
-<div class="box">
-
-Die Nachricht startet das Skript des Hundes.
-
-</div>
-
----
-
 
 # Zusammenfassung
 
@@ -451,11 +358,6 @@ Die **Kommunikation** zwischen Figuren.
 
 </div>
 
----
-
-# Ein Beispiel
-
-https://scratch.mit.edu/projects/1384788695
 
 ---
 
